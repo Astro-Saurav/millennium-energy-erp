@@ -14,7 +14,7 @@ if (major < 20) {
 require('dotenv').config({ path: '.env' });
 require('dotenv').config({ path: '.env.local' });
 
-mconsole.log('Starting MongoDB connection...');
+console.log('Starting MongoDB connection...');
 mongoose.connect(process.env.DATABASE, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('✅ Connected to MongoDB successfully');
