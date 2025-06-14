@@ -22,7 +22,7 @@ export default function SideContent() {
       <div style={{ width: '100%' }}>
         <img
           src={logo}
-          alt="IDURAR ERP CRM"
+          alt="Millennium energy global private limited ERP CRM"
           style={{ margin: '0 0 40px', display: 'block' }}
           height={63}
           width={220}

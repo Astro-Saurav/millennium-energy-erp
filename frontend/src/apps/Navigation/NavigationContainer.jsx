@@ -5,8 +5,7 @@ import { Button, Drawer, Layout, Menu } from 'antd';
 import { useAppContext } from '@/context/appContext';
 
 import useLanguage from '@/locale/useLanguage';
-import logoIcon from '@/style/images/logo-icon.svg';
-import logoText from '@/style/images/logo-text.svg';
+import logoIcon from '@/style/images/idurar-crm-erp.svg';
 
 import useResponsive from '@/hooks/useResponsive';
 
@@ -151,11 +150,11 @@ function Sidebar({ collapsible, isMobile = false }) {
           cursor: 'pointer',
         }}
       >
-        <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} />
+        
 
         {!showLogoApp && (
           <img
-            src={logoText}
+            src={logoIcon}
             alt="Logo"
             style={{
               marginTop: '3px',

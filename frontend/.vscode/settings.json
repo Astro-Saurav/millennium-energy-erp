@@ -14,5 +14,6 @@
       "strings": "on",
       "other": "on"
     }
-  }
+  },
+  "search.useGlobalIgnoreFiles": true
 }
